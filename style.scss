@@ -1,0 +1,20 @@
+.scss-container {
+  width: 700px;
+  padding: 12px;
+  background-color: coral;
+
+  container-type: inline-size;
+}
+
+.scss-text {
+  color: yellow;
+  font-size: 3cqw;
+}
+
+$minWidth: 400px;
+@container (min-width: #{$minWidth}) {
+  .scss-interpolation {
+    background-color: deepskyblue;
+    line-height: 10cqh;
+  }
+}

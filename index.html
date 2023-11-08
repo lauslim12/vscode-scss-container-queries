@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VSCode SCSS Container Queries</title>
+
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/style.less" />
+    <link rel="stylesheet" href="/style.scss" />
+  </head>
+  <body>
+    <div>
+      <h1>VSCode SCSS Container Queries</h1>
+      <p>
+        This is a minimum reproducible example to show a Visual Studio Code
+        (more specifically, VSCode's CSS Language Server) bug when parsing
+        length container queries in SCSS files.
+      </p>
+
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_container_queries"
+      >
+        Reference:
+        https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_container_queries
+      </a>
+
+      <a href="https://github.com/lauslim12/vscode-scss-container-queries">
+        Repository: https://github.com/lauslim12/vscode-scss-container-queries
+      </a>
+
+      <main>
+        <article class="css-container">
+          <span class="css-text">
+            This is a component that was styled with CSS. My font size is
+            2.5cqw.
+          </span>
+        </article>
+
+        <article class="less-container">
+          <span class="less-text">
+            Hi, I am a text styled with Less! My font size is 2cqw.
+          </span>
+        </article>
+
+        <article class="scss-container">
+          <span class="scss-text">
+            I am currently styled with SCSS, it's applied properly on me, but
+            there is an error in VSCode. My font size is 3cqw.
+          </span>
+
+          <span class="scss-interpolation">
+            SCSS interpolation is here! Do you know that I have a line-height of
+            10cqh? There's an error in VSCode as well.
+          </span>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>

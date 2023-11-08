@@ -1,0 +1,23 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.css-container {
+  width: 700px;
+  padding: 12px;
+  background-color: rebeccapurple;
+}
+
+.css-text {
+  color: aliceblue;
+  font-size: 2.5cqw;
+}
