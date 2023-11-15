@@ -4,6 +4,8 @@ To reproduce the issue of CSS Language Server in Visual Studio Code. This minimu
 
 Relevant issue: [VSCode#197744](https://github.com/microsoft/vscode/issues/197744)
 
+**This issue has been resolved in [VSCode CSS Language Service](https://github.com/microsoft/vscode-css-languageservice/pull/371)**.
+
 ## Reproduction
 
 To reproduce the problem, please do the following steps.
